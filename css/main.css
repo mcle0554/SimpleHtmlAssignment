@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header,footer {
+    background-color: lightblue;
+}
+.site-title {
+    color:DodgerBlue; 
+}
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+#list-hobbies {
+    list-style-type:square;
+}
+#list-hobbies>li:nth-child(odd) {
+    background: red;
+}
+#navigation>a:link {
+    text-decoration: none;
+    background: greenyellow;
+    border-style: solid;
+}
+#navigation>a:hover {
+    background-color: lightskyblue;
+}
